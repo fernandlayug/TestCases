@@ -1,0 +1,41 @@
+Best Parameters: {'colsample_bytree': 1.0, 'learning_rate': 0.15, 'max_depth': 5, 'min_child_weight': 1, 'n_estimators': 150, 'reg_alpha': 0.1, 'reg_lambda': 0.5, 'subsample': 0.8}
+Cross-Validation Scores: [0.97440742 0.97494515 0.97318077 0.97356984 0.97445048]
+Mean Cross-Validation Score: 0.9741107304456401
+Accuracy: 0.9142935377875137
+Confusion Matrix:
+[[1635  185]
+ [ 128 1704]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.90      0.91      1820
+           1       0.90      0.93      0.92      1832
+
+    accuracy                           0.91      3652
+   macro avg       0.91      0.91      0.91      3652
+weighted avg       0.91      0.91      0.91      3652
+
+ROC AUC Score: 0.9728965221459763
+Feature Importances:
+                                          Feature  Importance
+13                                         Gender    0.143496
+10                            MotherJob_Housewife    0.088898
+19                             DistanceHomeSchool    0.084283
+6                    MotherJob_Other Job Services    0.075570
+17                               FinancialSupport    0.073723
+14                                Guardian_Mother    0.059758
+16                                     TravelTime    0.057557
+9                            AttendClassRegularly    0.045363
+18                                  DaysAvailable    0.044588
+12                                 InternetAccess    0.041436
+1                                             Job    0.037726
+11                               PerformanceScale    0.036897
+15  ReasonNotAttendingSchool_Schools are very far    0.035644
+7                          Transportation_Commute    0.035348
+8                  Transportation_Private Vehicle    0.031776
+5              ParentCohabitation_Living Together    0.029093
+2                      ParentCohabitation_Widowed    0.027533
+3                          SchoolAttended_Private    0.021883
+0                   FatherJob_Health Care Related    0.020263
+4                           SchoolAttended_Public    0.009166
+ 97%|=================== | 3536/3652 [00:17<00:00]
